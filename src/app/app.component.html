@@ -1,0 +1,12 @@
+<div id="app-root" style="height: 100%; overflow: hidden; padding: 24px;">
+  <ng-container *ngIf="abc">
+    <h1>Quer casar comigo?</h1>
+    <button class="btn" (click)="abcc()">Sim</button>
+    <button (click)="moverBotao()" [style.left.px]="posicaoX" [style.top.px]="posicaoY" class="nao btn">Não</button>
+  
+    <img src="../assets/vaca.png" width="100px" #minhaImagem>
+  </ng-container>
+  <ng-container *ngIf="!abc">
+    <h1>Seu esquema sempre foi comigo s2</h1>
+  </ng-container>
+</div>
