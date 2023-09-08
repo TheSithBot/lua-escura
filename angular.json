@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "marry-me": {
+    "lua-escura": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "marry-me:build:production"
+              "browserTarget": "lua-escura:build:production"
             },
             "development": {
-              "browserTarget": "marry-me:build:development"
+              "browserTarget": "lua-escura:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "marry-me:build"
+            "browserTarget": "lua-escura:build"
           }
         },
         "test": {
